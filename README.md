@@ -33,10 +33,10 @@ cd BankManagementSystem
 2. Set Up the Database:
 Open MySQL Workbench or your MySQL command line tool.
 
-Run the following SQL script to create the necessary tables and populate them with sample data:
+Run the following SQL scripts to create the necessary tables and populate them with sample data. Make sure the schema.sql and data.sql files are located in the sql/ folder inside your project directory.
 
-source C:/Users/usidh/Documents/BankManagementSystem/sql/schema.sql;
-source C:/Users/usidh/Documents/BankManagementSystem/sql/data.sql;
+source sql/schema.sql;
+source sql/data.sql;
 
 3. Configure the Database Connection:
 Open BankManagementSystem.java and update the database connection settings (username, password, and database name) in the connection URL.
